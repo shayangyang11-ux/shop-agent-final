@@ -1,0 +1,35 @@
+﻿# ===== 敏感文件（绝对不能提交）=====
+.env
+.env.*
+*.key
+*.secret
+
+# ===== Python 运行缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.benchmarks/
+
+# ===== 运行产物（本地生成，不提交）=====
+eval_results/
+eval_results_real/
+*.log
+*.tmp
+
+# ===== IDE 配置文件 =====
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 系统垃圾文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
